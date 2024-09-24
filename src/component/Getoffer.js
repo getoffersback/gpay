@@ -27,7 +27,7 @@ const Getofffer = () => {
         {
           supportedMethods: ['https://tez.google.com/pay'],
           data: {
-            pa: 'bmglobals.36171342@hdfcbank',  // Replace with your Merchant UPI ID
+            pa: 'digitalunicorn668059.rzp@icici',  // Replace with your Merchant UPI ID
             pn: 'Mobile Recharge',  // Replace with your Merchant Name
             tr: '1234ABCD',  // Your custom transaction reference ID
             url: 'https://yourwebsite.com/order/1234ABCD',  // URL of the order in your website
